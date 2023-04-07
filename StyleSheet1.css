@@ -1,0 +1,112 @@
+﻿body {
+    background-color: #73c8a9;
+    font-family: Rockwell, cursive;
+    background-image: linear-gradient(to right, #73c8a9, #373b44);
+    p .solid{
+    border-style: solid;
+}
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+
+
+canvas {
+    border: 5px solid #2e2e2e;
+    border-radius: 10px;
+    display: block;
+    margin: 50px auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* we will make the end menu overlap the game canvas, so we need here a lower z-index */
+    z-index: 1;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+    border-right: 2px solid #000000;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #73c8a9;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        color: #f2f2f3;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+        /* Change the color of links on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Add a color to the active/current link */
+        .topnav a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+h1 {
+{
+    border-style: ridge;
+}
+
+}
+
+p
+/*  background-color: yellow; REMOVE COMMENT IF YOU WANT YELLOW BACKGROUND FOR THE TEXT*/
+/* Style all font awesome icons */ {
+    padding: 8px;
+    font-size: 10px;
+    font-family: "Georgia";
+    text-decoration: none;
+    
+}
+
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+}
