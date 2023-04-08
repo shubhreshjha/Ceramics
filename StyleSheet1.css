@@ -11,7 +11,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
+    width: 30%;
 }
 
 
@@ -20,7 +20,7 @@ canvas {
     border: 5px solid #2e2e2e;
     border-radius: 10px;
     display: block;
-    margin: 50px auto;
+    margin: 80px auto;
     background-size: cover;
     background-repeat: no-repeat;
     /* we will make the end menu overlap the game canvas, so we need here a lower z-index */
@@ -34,6 +34,7 @@ ul {
     padding: 0;
 }
 
+/*Main Menu Bar*/
 li {
     float: left;
     border-right: 2px solid #000000;
@@ -80,11 +81,19 @@ h1 {
 
 }
 
+/* Formatting the Query Box */
+div {
+    
+    border: 2px solid #73AD21;
+    border-width: 2px;
+}
+
+
 p
 /*  background-color: yellow; REMOVE COMMENT IF YOU WANT YELLOW BACKGROUND FOR THE TEXT*/
 /* Style all font awesome icons */ {
     padding: 8px;
-    font-size: 10px;
+    font-size: 16px;
     font-family: "Georgia";
     text-decoration: none;
     

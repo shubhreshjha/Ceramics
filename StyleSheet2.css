@@ -1,0 +1,30 @@
+﻿
+body {
+    background-color: #4f6f61;
+    
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+
+
+p
+/* Background Text Style */ {
+    padding: 7px;
+    font-size: 24px;
+    font-family: "Times New Roman";
+    text-decoration: none;
+}
+
+
+img {
+    width: 40%
+}
+
+
